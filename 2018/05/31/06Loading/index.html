@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Loading加载时的等待动画特效。 引入 组件内使用 12345import Loading from &apos;../../appassets/components/Loading&apos;;// 显示loading效果Loading.loading(&apos;页面加载中&apos;);// 关闭loadingLoading.close(); 全局注册Loading 123import Vue from &apos;vue&apos;;impor">
+    <meta name="description" content="Loading加载时的等待动画特效。 引入组件内使用 12345import Loading from &apos;../../appassets/components/Loading&apos;;// 显示loading效果Loading.loading(&apos;页面加载中&apos;);// 关闭loadingLoading.close(); 全局注册Loading 123import Vue from &apos;vue&apos;;import">
 <meta name="keywords" content="Loading component">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Loading">
 <meta property="og:url" content="http://yoursite.com/2018/05/31/06Loading/index.html">
 <meta property="og:site_name" content="学而不思则罔">
-<meta property="og:description" content="Loading加载时的等待动画特效。 引入 组件内使用 12345import Loading from &apos;../../appassets/components/Loading&apos;;// 显示loading效果Loading.loading(&apos;页面加载中&apos;);// 关闭loadingLoading.close(); 全局注册Loading 123import Vue from &apos;vue&apos;;impor">
+<meta property="og:description" content="Loading加载时的等待动画特效。 引入组件内使用 12345import Loading from &apos;../../appassets/components/Loading&apos;;// 显示loading效果Loading.loading(&apos;页面加载中&apos;);// 关闭loadingLoading.close(); 全局注册Loading 123import Vue from &apos;vue&apos;;import">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://yoursite.com/static/image/loading/loading.png">
-<meta property="og:updated_time" content="2018-05-31T09:15:02.437Z">
+<meta property="og:updated_time" content="2018-06-19T08:24:25.828Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Loading">
-<meta name="twitter:description" content="Loading加载时的等待动画特效。 引入 组件内使用 12345import Loading from &apos;../../appassets/components/Loading&apos;;// 显示loading效果Loading.loading(&apos;页面加载中&apos;);// 关闭loadingLoading.close(); 全局注册Loading 123import Vue from &apos;vue&apos;;impor">
+<meta name="twitter:description" content="Loading加载时的等待动画特效。 引入组件内使用 12345import Loading from &apos;../../appassets/components/Loading&apos;;// 显示loading效果Loading.loading(&apos;页面加载中&apos;);// 关闭loadingLoading.close(); 全局注册Loading 123import Vue from &apos;vue&apos;;import">
 <meta name="twitter:image" content="http://yoursite.com/static/image/loading/loading.png">
     
     
@@ -67,6 +67,8 @@
          
           <li><a href="/archives/">Writing</a></li>
          
+          <li><a href="/Search/">Search</a></li>
+         
           <li><a href="https://github.com/soargg/SonwFE-Component">Projects</a></li>
         
       </ul>
@@ -74,6 +76,8 @@
     <br/>
     <span id="actions">
       <ul>
+        
+        <li><a class="icon" href="/2018/06/19/07LoopImg/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
         <li><a class="icon" href="/2018/05/14/05Foldlist/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
@@ -103,7 +107,7 @@
 
     </div>
     <div id="toc">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Loading"><span class="toc-number">1.</span> <span class="toc-text">Loading</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Loading"><span class="toc-number">1.</span> <span class="toc-text">Loading</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#引入"><span class="toc-number">1.1.</span> <span class="toc-text">引入</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#例子"><span class="toc-number">1.2.</span> <span class="toc-text">例子</span></a></li></ol></li></ol>
     </div>
   </span>
 </div>
@@ -143,15 +147,13 @@
 
   <div class="content" itemprop="articleBody">
     <h1 id="Loading"><a href="#Loading" class="headerlink" title="Loading"></a>Loading</h1><p>加载时的等待动画特效。</p>
-<p><strong>引入</strong></p>
-<p>组件内使用</p>
+<h2 id="引入"><a href="#引入" class="headerlink" title="引入"></a>引入</h2><p>组件内使用</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Loading <span class="keyword">from</span> <span class="string">'../../appassets/components/Loading'</span>;</span><br><span class="line"><span class="comment">// 显示loading效果</span></span><br><span class="line">Loading.loading(<span class="string">'页面加载中'</span>);</span><br><span class="line"><span class="comment">// 关闭loading</span></span><br><span class="line">Loading.close();</span><br></pre></td></tr></table></figure>
 <p>全局注册Loading</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">'vue'</span>;</span><br><span class="line"><span class="keyword">import</span> Loading <span class="keyword">from</span> <span class="string">'../../appassets/components/Loading'</span>;</span><br><span class="line">Vue.use(Loading);</span><br></pre></td></tr></table></figure>
 <p>在组件中需要时使用</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">this</span>.$Loading.loading(<span class="string">'页面加载中'</span>);</span><br><span class="line"><span class="keyword">this</span>.$Loading.close();</span><br></pre></td></tr></table></figure>
-<p><strong>例子</strong></p>
-<p>Loading</p>
+<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>Loading</p>
 <p><img src="/static/image/loading/loading.png" width="200"></p>
 
   </div>
@@ -173,13 +175,15 @@
          
           <li><a href="/archives/">Writing</a></li>
          
+          <li><a href="/Search/">Search</a></li>
+         
           <li><a href="https://github.com/soargg/SonwFE-Component">Projects</a></li>
         
       </ul>
     </div>
 
     <div id="toc-footer" style="display: none">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Loading"><span class="toc-number">1.</span> <span class="toc-text">Loading</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Loading"><span class="toc-number">1.</span> <span class="toc-text">Loading</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#引入"><span class="toc-number">1.1.</span> <span class="toc-text">引入</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#例子"><span class="toc-number">1.2.</span> <span class="toc-text">例子</span></a></li></ol></li></ol>
     </div>
 
     <div id="share-footer" style="display: none">
@@ -222,6 +226,8 @@
           <li><a href="/about/">About</a></li>
          
           <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/Search/">Search</a></li>
          
           <li><a href="https://github.com/soargg/SonwFE-Component">Projects</a></li>
         

@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Toast简短的消息提示框，支持自定义位置、持续时间 引入 1import Toast from &apos;../../appassets/components/Toast&apos;; 例子 基本用法 1Toast(&apos;艺术的粉尘&apos;)；//默认存在时间2000ms 在调用 Toast 时传入一个对象即可配置更多选项 12345Toast(&amp;#123;    text: &apos;toast&apos;,    duration: 3">
+    <meta name="description" content="Toast简短的消息提示框，支持自定义位置、持续时间 引入1import Toast from &apos;../../appassets/components/Toast&apos;; 例子基本用法 1Toast(&apos;艺术的粉尘&apos;)；//默认存在时间2000ms 在调用 Toast 时传入一个对象即可配置更多选项 12345Toast(&amp;#123;    text: &apos;toast&apos;,    duration: 300">
 <meta name="keywords" content="toast component">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Toast">
 <meta property="og:url" content="http://yoursite.com/2018/05/14/02Toast/index.html">
 <meta property="og:site_name" content="学而不思则罔">
-<meta property="og:description" content="Toast简短的消息提示框，支持自定义位置、持续时间 引入 1import Toast from &apos;../../appassets/components/Toast&apos;; 例子 基本用法 1Toast(&apos;艺术的粉尘&apos;)；//默认存在时间2000ms 在调用 Toast 时传入一个对象即可配置更多选项 12345Toast(&amp;#123;    text: &apos;toast&apos;,    duration: 3">
+<meta property="og:description" content="Toast简短的消息提示框，支持自定义位置、持续时间 引入1import Toast from &apos;../../appassets/components/Toast&apos;; 例子基本用法 1Toast(&apos;艺术的粉尘&apos;)；//默认存在时间2000ms 在调用 Toast 时传入一个对象即可配置更多选项 12345Toast(&amp;#123;    text: &apos;toast&apos;,    duration: 300">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-06-11T03:16:08.777Z">
+<meta property="og:updated_time" content="2018-06-19T08:21:41.267Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Toast">
-<meta name="twitter:description" content="Toast简短的消息提示框，支持自定义位置、持续时间 引入 1import Toast from &apos;../../appassets/components/Toast&apos;; 例子 基本用法 1Toast(&apos;艺术的粉尘&apos;)；//默认存在时间2000ms 在调用 Toast 时传入一个对象即可配置更多选项 12345Toast(&amp;#123;    text: &apos;toast&apos;,    duration: 3">
+<meta name="twitter:description" content="Toast简短的消息提示框，支持自定义位置、持续时间 引入1import Toast from &apos;../../appassets/components/Toast&apos;; 例子基本用法 1Toast(&apos;艺术的粉尘&apos;)；//默认存在时间2000ms 在调用 Toast 时传入一个对象即可配置更多选项 12345Toast(&amp;#123;    text: &apos;toast&apos;,    duration: 300">
     
     
         
@@ -65,6 +65,8 @@
          
           <li><a href="/archives/">Writing</a></li>
          
+          <li><a href="/Search/">Search</a></li>
+         
           <li><a href="https://github.com/soargg/SonwFE-Component">Projects</a></li>
         
       </ul>
@@ -103,7 +105,7 @@
 
     </div>
     <div id="toc">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Toast"><span class="toc-number">1.</span> <span class="toc-text">Toast</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Toast"><span class="toc-number">1.</span> <span class="toc-text">Toast</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#引入"><span class="toc-number">1.1.</span> <span class="toc-text">引入</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#例子"><span class="toc-number">1.2.</span> <span class="toc-text">例子</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#API"><span class="toc-number">1.3.</span> <span class="toc-text">API</span></a></li></ol></li></ol>
     </div>
   </span>
 </div>
@@ -143,15 +145,12 @@
 
   <div class="content" itemprop="articleBody">
     <h1 id="Toast"><a href="#Toast" class="headerlink" title="Toast"></a>Toast</h1><p>简短的消息提示框，支持自定义位置、持续时间</p>
-<p><strong>引入</strong></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Toast <span class="keyword">from</span> <span class="string">'../../appassets/components/Toast'</span>;</span><br></pre></td></tr></table></figure>
-<p><strong>例子</strong></p>
-<p>基本用法</p>
+<h2 id="引入"><a href="#引入" class="headerlink" title="引入"></a>引入</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Toast <span class="keyword">from</span> <span class="string">'../../appassets/components/Toast'</span>;</span><br></pre></td></tr></table></figure>
+<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>基本用法</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Toast(<span class="string">'艺术的粉尘'</span>)；<span class="comment">//默认存在时间2000ms</span></span><br></pre></td></tr></table></figure>
 <p>在调用 <code>Toast</code> 时传入一个对象即可配置更多选项</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Toast(&#123;</span><br><span class="line">    text: <span class="string">'toast'</span>,</span><br><span class="line">    duration: <span class="number">3000</span>,</span><br><span class="line">    position: <span class="string">'middle'</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-<p><strong>API</strong></p>
-<table>
+<h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><table>
 <thead>
 <tr>
 <th>参数</th>
@@ -212,13 +211,15 @@
          
           <li><a href="/archives/">Writing</a></li>
          
+          <li><a href="/Search/">Search</a></li>
+         
           <li><a href="https://github.com/soargg/SonwFE-Component">Projects</a></li>
         
       </ul>
     </div>
 
     <div id="toc-footer" style="display: none">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Toast"><span class="toc-number">1.</span> <span class="toc-text">Toast</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Toast"><span class="toc-number">1.</span> <span class="toc-text">Toast</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#引入"><span class="toc-number">1.1.</span> <span class="toc-text">引入</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#例子"><span class="toc-number">1.2.</span> <span class="toc-text">例子</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#API"><span class="toc-number">1.3.</span> <span class="toc-text">API</span></a></li></ol></li></ol>
     </div>
 
     <div id="share-footer" style="display: none">
@@ -261,6 +262,8 @@
           <li><a href="/about/">About</a></li>
          
           <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/Search/">Search</a></li>
          
           <li><a href="https://github.com/soargg/SonwFE-Component">Projects</a></li>
         
