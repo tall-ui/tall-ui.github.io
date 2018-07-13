@@ -78,6 +78,21 @@
     </entry>
     
     <entry>
+      <title>Toast</title>
+      <link href="/2018/05/14/02Toast/"/>
+      <url>/2018/05/14/02Toast/</url>
+      <content type="html"><![CDATA[<h1 id="Toast"><a href="#Toast" class="headerlink" title="Toast"></a>Toast</h1><p>简短的消息提示框，支持自定义位置、持续时间</p><h2 id="引入"><a href="#引入" class="headerlink" title="引入"></a>引入</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Toast <span class="keyword">from</span> <span class="string">'../../appassets/components/Toast'</span>;</span><br></pre></td></tr></table></figure><h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>基本用法</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Toast(<span class="string">'艺术的粉尘'</span>)；<span class="comment">//默认存在时间2000ms</span></span><br></pre></td></tr></table></figure><p>在调用 <code>Toast</code> 时传入一个对象即可配置更多选项</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Toast(&#123;</span><br><span class="line">    text: <span class="string">'toast'</span>,</span><br><span class="line">    duration: <span class="number">3000</span>,</span><br><span class="line">    position: <span class="string">'middle'</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><table><thead><tr><th>参数</th><th>说明</th><th>类型</th><th>可选值</th><th>默认值</th></tr></thead><tbody><tr><td>text</td><td>toast提示文案</td><td>string</td><td>-</td><td>-</td></tr><tr><td>duration</td><td>持续时间，单位ms</td><td>number</td><td>-</td><td>2000</td></tr><tr><td>position</td><td>位置</td><td>String</td><td>‘top’<br>‘middle’<br>‘bottom’</td><td>‘middle’</td></tr><tr><td>align</td><td>文本对齐方式（默认居中）</td><td>String</td><td>‘left’</td><td>‘’</td></tr></tbody></table>]]></content>
+      
+      
+        <tags>
+            
+            <tag> toast </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Popup</title>
       <link href="/2018/05/14/03Popup/"/>
       <url>/2018/05/14/03Popup/</url>
@@ -102,21 +117,6 @@
         <tags>
             
             <tag> Picker </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Toast</title>
-      <link href="/2018/05/14/02Toast/"/>
-      <url>/2018/05/14/02Toast/</url>
-      <content type="html"><![CDATA[<h1 id="Toast"><a href="#Toast" class="headerlink" title="Toast"></a>Toast</h1><p>简短的消息提示框，支持自定义位置、持续时间</p><h2 id="引入"><a href="#引入" class="headerlink" title="引入"></a>引入</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Toast <span class="keyword">from</span> <span class="string">'../../appassets/components/Toast'</span>;</span><br></pre></td></tr></table></figure><h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>基本用法</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Toast(<span class="string">'艺术的粉尘'</span>)；<span class="comment">//默认存在时间2000ms</span></span><br></pre></td></tr></table></figure><p>在调用 <code>Toast</code> 时传入一个对象即可配置更多选项</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Toast(&#123;</span><br><span class="line">    text: <span class="string">'toast'</span>,</span><br><span class="line">    duration: <span class="number">3000</span>,</span><br><span class="line">    position: <span class="string">'middle'</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><table><thead><tr><th>参数</th><th>说明</th><th>类型</th><th>可选值</th><th>默认值</th></tr></thead><tbody><tr><td>text</td><td>toast提示文案</td><td>string</td><td>-</td><td>-</td></tr><tr><td>duration</td><td>持续时间，单位ms</td><td>number</td><td>-</td><td>2000</td></tr><tr><td>position</td><td>位置</td><td>String</td><td>‘top’<br>‘middle’<br>‘bottom’</td><td>‘middle’</td></tr><tr><td>align</td><td>文本对齐方式（默认居中）</td><td>String</td><td>‘left’</td><td>‘’</td></tr></tbody></table>]]></content>
-      
-      
-        <tags>
-            
-            <tag> toast </tag>
             
         </tags>
       
